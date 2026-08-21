@@ -1,0 +1,6 @@
+{
+  "name": "IKIGAI SUSHI Menu",
+  "description": "Cardápio digital para o IKIGAI SUSHI.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
