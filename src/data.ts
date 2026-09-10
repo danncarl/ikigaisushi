@@ -13,10 +13,10 @@ export const CATEGORIES = [
 
 export const MENU_DATA = {
   Barcas: [
-    { name: "Barca Ikigai Simples (17 peças - Tudo Cru)", price: 175.00, image: "/sushi_boat_1787272034022.jpg" },
-    { name: "Barca Tradicional (85 peças variadas cruas e fritas)", price: 375.00, image: "/sushi_boat_1787272034022.jpg" },
-    { name: "Barca Ikigai Tudo Cru (17 peças)", price: 90.00, image: "/sushi_boat_1787272034022.jpg" },
-    { name: "Barca Ikigai Doce (24 peças)", price: 85.00, image: "/sushi_boat_1787272034022.jpg" },
+    { name: "Barca Ikigai Simples (17 peças - Tudo Cru)", price: 175.00, image: "https://i.imgur.com/bcvPTn5.jpeg" },
+    { name: "Barca Tradicional (85 peças variadas cruas e fritas)", price: 375.00, image: "https://i.imgur.com/gXBIwbN.jpeg" },
+    { name: "Barca Ikigai Tudo Cru (17 peças)", price: 90.00, image: "https://i.imgur.com/OhA2PhA.jpeg" },
+    { name: "Barca Ikigai Doce (24 peças)", price: 85.00, image: "https://i.imgur.com/3TOR9OI.jpeg" },
   ],
   "Hot Roll & Uramaki": [
     { name: "Hot Roll-Ikigai (10 und)", price: 58.00, image: "/hot_roll_sushi_1787272044834.jpg" },

@@ -16,7 +16,7 @@ export default function MenuItem({ name, price, image }: Props) {
 
   return (
     <div className="bg-black border border-white rounded-lg overflow-hidden flex flex-col h-full">
-      <div className="h-40 bg-zinc-900 flex items-center justify-center overflow-hidden">
+      <div className="aspect-[4/5] bg-zinc-900 flex items-center justify-center overflow-hidden">
         {image ? (
           <img src={image} alt={name} className="w-full h-full object-cover" />
         ) : (
