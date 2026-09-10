@@ -69,10 +69,10 @@ export const MENU_DATA = {
     { name: "Monte Seu Poke (Base, 1 Proteína, 5 Acomp)", price: 65.00, image: "/poke_bowl_1787272070488.jpg" },
   ],
   Bebidas: [
-    { name: "Suco de Maracujá", price: 8.00, image: undefined },
-    { name: "Suco de Acerola", price: 8.00, image: undefined },
-    { name: "Coca Cola (Lata)", price: 6.00, image: undefined },
-    { name: "Coca Cola 1L", price: 12.00, image: undefined },
-    { name: "Coca Cola 2L", price: 16.00, image: undefined },
+    { name: "Suco de Maracujá", price: 8.00, image: "https://i.imgur.com/5YEzDzb.png" },
+    { name: "Suco de Acerola", price: 8.00, image: "https://i.imgur.com/mSLMhev.png" },
+    { name: "Coca Cola (Lata)", price: 6.00, image: "https://i.imgur.com/Li9wK0f.png" },
+    { name: "Coca Cola 1L", price: 12.00, image: "https://i.imgur.com/wTWbNVv.png" },
+    { name: "Coca Cola 2L", price: 16.00, image: "https://i.imgur.com/7VcC9OJ.png" },
   ],
 };
