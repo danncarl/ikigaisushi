@@ -31,10 +31,10 @@ export const MENU_DATA = {
     { name: "Uramaki Ikigai (10 und)", price: 60.00, image: "https://i.imgur.com/WbDJkM8.png" },
   ],
   "Joe's": [
-    { name: "Joe Ikigai (6 und)", price: 52.00, image: "/joe_sushi_1787272054073.jpg" },
-    { name: "Joo de Salmão (6 und)", price: 42.00, image: "/joe_sushi_1787272054073.jpg" },
-    { name: "Joe de Camarão (4 und)", price: 55.00, image: "/joe_sushi_1787272054073.jpg" },
-    { name: "Joe de Camarão Empanado (4 und)", price: 36.00, image: "/joe_sushi_1787272054073.jpg" },
+    { name: "Joe Ikigai (6 und)", price: 52.00, image: "https://i.imgur.com/1ysLpbS.png" },
+    { name: "Joo de Salmão (6 und)", price: 42.00, image: "https://i.imgur.com/SbeFNcX.png" },
+    { name: "Joe de Camarão (4 und)", price: 55.00, image: "https://i.imgur.com/DhYNMaR.png" },
+    { name: "Joe de Camarão Empanado (4 und)", price: 36.00, image: "https://i.imgur.com/zCKQ3wk.png" },
   ],
   "Temaki's": [
     { name: "Temaki de Salmão em Cubos", price: 48.00, image: "/sushi_temaki_1787272062404.jpg" },
