@@ -5,10 +5,15 @@ interface Props {
   name: string;
   price: number;
   image?: string;
+  onOrder?: () => void;
 }
 
-export default function MenuItem({ name, price, image }: Props) {
+export default function MenuItem({ name, price, image, onOrder }: Props) {
   const handleOrder = () => {
+    if (onOrder) {
+      onOrder();
+      return;
+    }
     const message = `Olá! Gostaria de fazer o seguinte pedido: ${name} - R$ ${price.toFixed(2)}`;
     const url = `https://wa.me/${TELEFONE_WHATSAPP}?text=${encodeURIComponent(message)}`;
     window.open(url, "_blank");

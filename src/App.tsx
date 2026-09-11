@@ -9,20 +9,20 @@ import Header from './components/Header';
 import CategoryNav from './components/CategoryNav';
 import SearchBar from './components/SearchBar';
 import MenuItem from './components/MenuItem';
+import PokeModal from './components/PokeModal';
 import { MENU_DATA, CATEGORIES } from './data';
 
 export default function App() {
   const [selectedCategory, setSelectedCategory] = useState(CATEGORIES[0]);
   const [searchQuery, setSearchQuery] = useState("");
+  const [isPokeModalOpen, setIsPokeModalOpen] = useState(false);
 
   const filteredItems = useMemo(() => {
     if (searchQuery.trim() !== "") {
-      // Global search
       return Object.values(MENU_DATA).flat().filter(item =>
         item.name.toLowerCase().includes(searchQuery.toLowerCase())
       );
     }
-    // Category search
     return MENU_DATA[selectedCategory as keyof typeof MENU_DATA];
   }, [selectedCategory, searchQuery]);
 
@@ -43,10 +43,17 @@ export default function App() {
         <h2 className="text-2xl font-bold text-white mb-4 border-b border-red-600 pb-2">{displayTitle}</h2>
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
           {filteredItems.map((item) => (
-            <MenuItem key={item.name} name={item.name} price={item.price} image={item.image} />
+            <MenuItem 
+              key={item.name} 
+              name={item.name} 
+              price={item.price} 
+              image={item.image}
+              onOrder={item.name === "Monte Seu Poke (Base, 1 Proteína, 5 Acomp)" ? () => setIsPokeModalOpen(true) : undefined}
+            />
           ))}
         </div>
       </main>
+      <PokeModal isOpen={isPokeModalOpen} onClose={() => setIsPokeModalOpen(false)} price={65.00} />
       <footer className="p-6 mt-8 border-t border-red-600 text-center text-sm text-zinc-400">
         <a 
           href="https://www.instagram.com/ikigaisushiam/" 
