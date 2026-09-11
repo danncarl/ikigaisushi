@@ -37,10 +37,10 @@ export const MENU_DATA = {
     { name: "Joe de Camarão Empanado (4 und)", price: 36.00, image: "https://i.imgur.com/zCKQ3wk.png" },
   ],
   "Temaki's": [
-    { name: "Temaki de Salmão em Cubos", price: 48.00, image: "/sushi_temaki_1787272062404.jpg" },
-    { name: "Temaki Ikigai", price: 55.00, image: "/sushi_temaki_1787272062404.jpg" },
-    { name: "Temaki Filadélfia", price: 49.00, image: "/sushi_temaki_1787272062404.jpg" },
-    { name: "Temaki Grelhado", price: 49.00, image: "/sushi_temaki_1787272062404.jpg" },
+    { name: "Temaki de Salmão em Cubos", price: 48.00, image: "https://i.imgur.com/61aOV2m.png" },
+    { name: "Temaki Ikigai", price: 55.00, image: "https://i.imgur.com/MEICtWj.png" },
+    { name: "Temaki Filadélfia", price: 49.00, image: "https://i.imgur.com/jp0uQDZ.png" },
+    { name: "Temaki Grelhado", price: 49.00, image: "https://i.imgur.com/7mZ4gzY.png" },
   ],
   "Outros Pratos": [
     { name: "Porção de Bolinhos de Salmão (8 und)", price: 58.00, image: undefined },
@@ -66,7 +66,7 @@ export const MENU_DATA = {
     { name: "Combinado Ikigai Nada Cru (29 peças)", price: 135.00, image: "/sushi_boat_1787272034022.jpg" },
   ],
   "Monte Seu Poke": [
-    { name: "Monte Seu Poke (Base, 1 Proteína, 5 Acomp)", price: 65.00, image: "/poke_bowl_1787272070488.jpg" },
+    { name: "Monte Seu Poke (Base, 1 Proteína, 5 Acomp)", price: 65.00, image: "https://i.imgur.com/Atd3Kev.png" },
   ],
   Bebidas: [
     { name: "Suco de Maracujá", price: 8.00, image: "https://i.imgur.com/5YEzDzb.png" },
