@@ -1,4 +1,4 @@
-export const TELEFONE_WHATSAPP = "5511999999999";
+export const TELEFONE_WHATSAPP = "5597984179809";
 
 export const CATEGORIES = [
   "Barcas",
